@@ -1,0 +1,7 @@
+Executable : /Users/yilintsai/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/android/app/.cxx/Debug/6o2i5o3g/armeabi-v7a
+weather
+jvmArgs : 
+

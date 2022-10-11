@@ -1,0 +1,10 @@
+# ninja log v5
+0	51	1665408101	CMakeFiles/weather.dir/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/src/weather.c.o	5f50112cba64ab02
+51	102	1665408101	/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/build/app/intermediates/cxx/Debug/6o2i5o3g/obj/armeabi-v7a/libweather.so	1880609b1c96ace9
+1	65	1665409048	CMakeFiles/weather.dir/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/src/weather.c.o	5f50112cba64ab02
+65	143	1665409048	/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/build/app/intermediates/cxx/Debug/6o2i5o3g/obj/armeabi-v7a/libweather.so	1880609b1c96ace9
+0	81	1665409730	CMakeFiles/weather.dir/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/src/weather.cpp.o	22976ccb9552544e
+81	183	1665409730	/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/build/app/intermediates/cxx/Debug/6o2i5o3g/obj/armeabi-v7a/libweather.so	4e0e66029b1cbfa8
+0	113	1665410323	/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/build/app/intermediates/cxx/Debug/6o2i5o3g/obj/armeabi-v7a/libweather.so	4e0e66029b1cbfa8
+0	68	1665410476	CMakeFiles/weather.dir/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/ios/Classes/weather.c.o	8a1019a53adb71a
+68	150	1665410476	/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/build/app/intermediates/cxx/Debug/6o2i5o3g/obj/armeabi-v7a/libweather.so	3c62c1d3b9d01937

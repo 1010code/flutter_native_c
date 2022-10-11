@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/android/app/.cxx/Debug/6o2i5o3g/x86",
+  "command": "/Users/yilintsai/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/yilintsai/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/yilintsai/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dweather_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/weather.dir/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/ios/Classes/weather.c.o -c /Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/ios/Classes/weather.c",
+  "file": "/Users/yilintsai/Desktop/GitHub/1010code-github/flutter_native_c/ios/Classes/weather.c"
+}
+]

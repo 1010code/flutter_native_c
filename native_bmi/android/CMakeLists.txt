@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 add_library(
-            weather
+            native_bmi
             SHARED
-            ../ios/Classes/weather.cpp
+            ../ios/Classes/native_bmi.cpp
 )

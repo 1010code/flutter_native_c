@@ -3,19 +3,22 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:native_bmi/native_bmi_method_channel.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   MethodChannelNativeBmi platform = MethodChannelNativeBmi();
   const MethodChannel channel = MethodChannel('native_bmi');
 
-  TestWidgetsFlutterBinding.ensureInitialized();
-
   setUp(() {
-    channel.setMockMethodCallHandler((MethodCall methodCall) async {
-      return '42';
-    });
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(
+      channel,
+      (MethodCall methodCall) async {
+        return '42';
+      },
+    );
   });
 
   tearDown(() {
-    channel.setMockMethodCallHandler(null);
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, null);
   });
 
   test('getPlatformVersion', () async {

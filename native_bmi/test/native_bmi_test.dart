@@ -4,7 +4,7 @@ import 'package:native_bmi/native_bmi_platform_interface.dart';
 import 'package:native_bmi/native_bmi_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-class MockNativeBmiPlatform 
+class MockNativeBmiPlatform
     with MockPlatformInterfaceMixin
     implements NativeBmiPlatform {
 
@@ -23,7 +23,7 @@ void main() {
     NativeBmi nativeBmiPlugin = NativeBmi();
     MockNativeBmiPlatform fakePlatform = MockNativeBmiPlatform();
     NativeBmiPlatform.instance = fakePlatform;
-  
+
     expect(await nativeBmiPlugin.getPlatformVersion(), '42');
   });
 }

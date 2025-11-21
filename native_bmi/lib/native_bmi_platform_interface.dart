@@ -14,7 +14,7 @@ abstract class NativeBmiPlatform extends PlatformInterface {
   ///
   /// Defaults to [MethodChannelNativeBmi].
   static NativeBmiPlatform get instance => _instance;
-  
+
   /// Platform-specific implementations should set this with their own
   /// platform-specific class that extends [NativeBmiPlatform] when
   /// they register themselves.
